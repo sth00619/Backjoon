@@ -1,0 +1,9 @@
+// 문제의 조건을 헷갈려서 쉬운 문제임에도 여러 번 제출해야했는데, 모든 식의 결과를 정수로 출력해야하는 문제였다.
+A, B = input().split()
+A = int(A)
+B = int(B)
+print(A+B)
+print(A-B)
+print(A*B)
+print(int(A/B))
+print(A%B)
