@@ -1,0 +1,12 @@
+// 조건문의 기본만 알고 있으면 풀 수 있었던 문제
+
+A, B = input().split()
+A = int(A)
+B = int(B)
+
+if A > B:
+    print('>')
+elif A < B:
+    print('<')
+else :
+    print('==')
