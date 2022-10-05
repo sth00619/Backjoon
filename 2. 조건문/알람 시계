@@ -1,0 +1,10 @@
+// 변수를 선언할 때 변수의 필수 조건에 대해서 좀 더 민감하게 생각해야함을 알게된 문제
+
+hour, min = map(int,input().split())
+
+if min >= 45:
+    print(hour, min-45)
+elif hour>0 and min < 45:
+    print(hour-1, min+15)
+else:
+    print(23, min+15)
