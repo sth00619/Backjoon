@@ -1,0 +1,13 @@
+// else를 사용할 때는 논리연산자 주의하기
+
+A = int(input())
+B = int(input())
+
+if (A > 0) and (B > 0):
+    print(1)
+elif (A > 0) and (B < 0):
+    print(4)
+elif (A < 0) and (B < 0):
+    print(3)
+else :
+    print(2)
