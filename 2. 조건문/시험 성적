@@ -1,0 +1,16 @@
+score = int(input())
+
+// elif를 사용하여 구한다.
+// 만약 90점 이상이라면 첫번째 조건을 만족하는 것이고 85점이라면 첫번째 조건을 지나쳐(elif를 통해) 두 번째 조건을 만족시키게 된다.
+
+if score >= 90 :
+    print('A')
+elif score >= 80 :
+    print('B')
+elif score >= 70 :
+    print('C')
+elif score >= 60 :
+    print('D')
+else:
+    print('F')
+    
